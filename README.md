@@ -7,15 +7,15 @@ Many publishers use categories as a means to logically organize their content. H
 
 - Use primary-category shortcode like this to include a list of items with given primary category in a post. 
 
-    [primary-category category="stuff"]
+    `[primary-category category="stuff"]`
     
-- pc_primary_category_posts($category_slug)  
+- `pc_primary_category_posts($category_slug)`  
 Returns an array of posts that have the given primary category. 
 
-- pc_get_primary_category($post_id)
+- `pc_get_primary_category($post_id)`
 Returns a term object with the given post's primary category.
 
-- pc_get_primary_category_link($post_id)
+- `pc_get_primary_category_link($post_id)`
 Returns a link to that category's page if $link is true.
 
 ### Assumptions:
