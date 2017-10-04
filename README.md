@@ -10,12 +10,15 @@ Many publishers use categories as a means to logically organize their content. H
     `[primary-category category="stuff"]`
     
 - `pc_primary_category_posts($category_slug)`  
+
 Returns an array of posts that have the given primary category. 
 
 - `pc_get_primary_category($post_id)`
+
 Returns a term object with the given post's primary category.
 
 - `pc_get_primary_category_link($post_id)`
+
 Returns a link to that category's page if $link is true.
 
 ### Assumptions:
