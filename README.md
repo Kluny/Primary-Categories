@@ -19,7 +19,7 @@ Returns a term object with the given post's primary category.
 
 - `pc_get_primary_category_link($post_id)`
 
-Returns a link to that category's page if $link is true.
+Returns a link to that category's page.
 
 ### Assumptions:
 - If a post has a given category as its primary, then it should be in that category. Therefore, if a category is selected as primary, and the post is not in that category, add it.
