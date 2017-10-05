@@ -5,9 +5,9 @@ Many publishers use categories as a means to logically organize their content. H
 
 - Use dropdown menu in admin area to select primary category. If post isn't already a member of the selected category, it will be added to that category as well. This prevents nonsensical situations where a post's primary category is "dog" but it doesn't appear on the "dog" category page. 
 
-- Use primary-category shortcode like this to include a list of items with given primary category in a post. 
+- Use primary-category shortcode like this to include a list of items with given primary category in a post. Specify desired post types with a comma-separated list. If no post type is provided, "post" is the default. 
 
-    `[primary-category category="stuff"]`
+    `[primary-category category="stuff", post_type="page,post"]`
     
 - `pc_primary_category_posts($category_slug)`  
 
