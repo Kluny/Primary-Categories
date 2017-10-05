@@ -25,3 +25,7 @@ Returns a link to that category's page.
 - If a post has a given category as its primary, then it should be in that category. Therefore, if a category is selected as primary, and the post is not in that category, add it.
 
 - If a post is no longer using a category as its primary, it should still remain in that category. Therefore, do not remove the post from a category when the primary designation is removed.
+
+- Primary Categories should be usable with all post types. 
+
+- Each post can have one and only one Primary Category. 
